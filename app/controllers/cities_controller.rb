@@ -106,4 +106,4 @@ end
     def city_params
       params.require(:city).permit(:name, :lat, :lon)
     end
-end
+
