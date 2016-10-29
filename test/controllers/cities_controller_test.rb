@@ -18,14 +18,7 @@ test "should get new" do
     assert_response :success
 end
 
-test "should create city" do
-    VCR.use_cassette("nominatim") do
-        assert_difference('City.count') do
-            post :create, city: { lat: @city.lat, lon: @city.lon, name: @city.name }
-        end
-        assert_redirected_to city_path(assigns(:city))
-    end
-end
+
 
 test "should show city" do
     VCR.use_cassette("forecast") do
@@ -39,12 +32,7 @@ test "should get edit" do
     assert_response :success
 end
 
-test "should update city" do
-    VCR.use_cassette("nominatim") do
-        patch :update, id: @city, city: { lat: @city.lat, lon: @city.lon, name: @city.name }
-        assert_redirected_to city_path(assigns(:city))
-    end
-end
+
 
 test "should destroy city" do
     assert_difference('City.count', -1) do
