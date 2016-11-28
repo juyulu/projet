@@ -7,6 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -27,7 +28,10 @@
       </div><!--/.nav-collapse -->
     </div>
   </nav>
-<%= yield %>
+ 
+  <div id="main">
+    <%= yield %>
+  </div>
 
 </body>
 </html>
