@@ -4,7 +4,7 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure:
+    secure: MNBNbUh74aoQKQPYcAfeDBkBs9emY8wVTp5VE/KQI8DaIAqT3ZfaJ+nbRCVDjIiFrQDP2iHfsRycpfmzjHPih6eZ6lpFrz25sfu0TLPx1eTtSVqXqDRX+wDuxhRc5NBcSJzDo5t6i6RGCl+UriGI1TI30I40FXA+v5q4uI43ctinFUV/R6MxjYpRSfzhjG2i9HIYfvwx2y4t6xcOL+BSk+5rXtkq6dz3oEwWZ/327L+mr1r5vWzgBnyHMUDQYhpylM3/+zgU6mx83L3tLeqcNI3mj8PbLtK8MsolkWfCObqVOKpUdUHoLnbmGpWOjR5E2fcTHAlV3OSjqE8Wa6ZqW5+jYyc9k8CTSaNDB0SrMVpEg4OOcb3PbIFFlgqDv643rqP14Fc2/VAsWxWdV4TcQc0Q9OSBUy0YOd1+GfxoGKCUoYhL24Fc+QDMwICDj4Ka5/PzRULdTkBU6WzW8tLzRiCSgAY5yIzPzlj+sqazmQqcvsxyKHiZVGBJhsa1mnB1eLINnYHHZsZJKtxRdE7ZOpPECgJT5gi5YZyNSWKtCtnkUra0pJ4ZbYgSGxnaeRX6h7AbXgy7+DnvXsrym5w/lKqXsb2MUFOJ20Yjac71tAdWALjYeNNIMVBnBV+Fv4bPnbmwjEjUv92RBYrEc1RDffgsvqcYOTvbUQvf3bAx76g=
   app: powerful-anchorage-27402
   on:
     repo: juyulu/projet
